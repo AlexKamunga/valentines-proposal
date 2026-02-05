@@ -1,0 +1,103 @@
+.body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Courier";
+  background-color: #E2E1FC;
+  color: #CB94F7;
+}
+
+.subheading{
+    background-color: #CB94F7;
+}
+
+.card{
+    height: 310px;
+}
+
+.spacing{
+height: 60px;
+}
+
+.card-title-spacing{
+    height: 75px;
+}
+
+.button {
+  
+  width: 80%;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  font-family: "courier";
+  margin-bottom: 10px;
+  background-color: #ffe3e1;
+  color: #CB94F7;
+  border-radius: 12px;
+  border: 2px solid #CB94F7;
+  box-shadow: #CB94F7;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #CB94F7;
+  color: #ffe3e1;
+  border: 2px solid #CB94F7;
+  box-shadow: 1px 1px 2px #CB94F7;
+}
+
+input[type="datetime-local"] {
+            width: 50%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+input[type="datetime-local"]:focus {
+    outline: none;
+    border-color: #667eea;
+    width: 50%;
+}
+
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            border: 2px solid #CB94F7;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .radio-option:hover {
+            background-color: #CB94F7;
+            color: #ffe3e1;
+        }
+
+        .radio-option input[type="radio"] {
+            cursor: pointer;
+            width: 18px;
+            height: 18px;
+            accent-color: #CB94F7;
+            color: #CB94F7;
+        }
+
+        .radio-option label {
+            margin: 0;
+            cursor: pointer;
+            font-weight: 500;
+            flex: 1;
+            color: #667eea;
+        }
+
+        .radio-option input[type="radio"]:checked + label {
+            color: #667eea;
+        }

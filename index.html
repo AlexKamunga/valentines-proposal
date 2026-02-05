@@ -5,30 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Be My Valentine</title>
     <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js"></script>
   </head>
   <body>
     <div id="valentineQuestion"><b>Will you be my valentine baby?</b></div>
-    <button class="answerButton" onclick="location.href='thankyou.html'">
+    <button id="yesButton" class="answerButton" onclick="location.href='thankyou.html'">
       Yes I Will
     </button>
     <button class="answerButton" id="noButton">No I Wont</button>
     <br />
     <img src="img/date-amor.gif" alt="cat asking question" class="responsive" />
-
-    <script>
-      document
-        .getElementById("noButton")
-        .addEventListener("click", function () {
-          var yesButton = document.querySelector(
-            'button[onclick*="thankyou.html"]'
-          );
-          alert("Re-evaluate your decision my nigga")
-          var currentFontSize = parseInt(
-            window.getComputedStyle(yesButton).fontSize
-          );
-          yesButton.style.fontSize = currentFontSize * 1.8 + "px"; // Increase font size 
-          noButton.style.fontSize = currentFontSize * 0.3 + "px"; // Decrease font size
-        });
-    </script>
   </body>
 </html>
